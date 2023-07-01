@@ -9,9 +9,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/6677c725bb.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
 </head>
 <body>
+  
+  <!-- 네비게이션 바 -->
   <nav class="navbar">
     <div class="navbar__logo">
       <img src="pic/nintendo.png">
@@ -25,8 +29,128 @@
       <li><i class="fa-solid fa-cart-shopping"></i>다운로드 구입</li>
       <li><i class="fa-solid fa-magnifying-glass"></i>검색</li>
     </ul>
-
-
   </nav>
+
+  <!-- 캐러셀 -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pic/main_pic1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pic/main_pic2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pic/main_pic3.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pic/main_pic4.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pic/main_pic5.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <ul class="game_bar">
+    <li><img src="pic/game_pic1.webp"><div class='game_bar__contents'>Everybody 1-2-Switch!(에브리바디 원 투 스위치)</div></li>
+    <li><img src="pic/game_pic2.webp"><div class='game_bar__contents'>젤다의 전설 티어스 오브 더 킹덤</div></li>
+    <li><img src="pic/game_pic3.webp"><div class='game_bar__contents'>스플래툰 3</div></li>
+    <li><img src="pic/game_pic4.webp"><div class='game_bar__contents'>포켓몬스터스칼렛・바이올렛</div></li>
+    <li><img src="pic/game_pic5.webp"><div class='game_bar__contents'>Nintendo Switch Sports</div></li>
+  </ul>
+
+  <!-- 2번째 페이지   -->
+
+  <div class="news_update">
+    <div class="news_update_title">
+      <div class="news_update_main_title">새롭게 알려 드립니다</div>
+      <div class="news_update_sub_title">News & Update</div>
+    </div>
+
+    <ul class="news_update_total">
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic1.webp"></div>
+        <div class="news_update_content">『슈퍼 마리오브라더스 원더』, 『슈퍼 마리오 RPG』, 『끝내주게 춤춰라 메이드 인 와리오』, 「돌아온 명탐정 피카츄」</div>
+        <div class="news_update_category">보도자료</div>
+        <div class="news_update_date">2023.6.22</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic2.webp"></div>
+        <div class="news_update_content">『드래곤 퀘스트 몬스터즈 3 마족 왕자와 엘프의 여행』, 『페르소나5 택티카』, 『우마무스메 프리티 더비 열혈 우당탕탕 대감사제』, 『Vampire Survivors』</div>
+        <div class="news_update_category">보도자료</div>
+        <div class="news_update_date">2023.6.22</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic3.webp"></div>
+        <div class="news_update_content">『Everybody 1-2-Switch!(에브리바디 원 투 스위치)』 First Look Party 영상이 공개되었습니다.</div>
+        <div class="news_update_category">뉴스</div>
+        <div class="news_update_date">2023.6.21</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic4.webp"></div>
+        <div class="news_update_content">『베리드 스타즈』를 기간 한정으로 마음껏 즐기자!  Nintendo Switch Online 가입자 한정 이벤트 「게임 트라이얼」 개최!</div>
+        <div class="news_update_category">뉴스</div>
+        <div class="news_update_date">2023.6.19</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic5.webp"></div>
+        <div class="news_update_content">Nintendo Switch 소프트웨어 『Minecraft』의 최신 대형 업데이트 「Trails & Tails」가 오늘부터 배포 개시</div>
+        <div class="news_update_category">뉴스</div>
+        <div class="news_update_date">2023.6.8</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic6.webp"></div>
+        <div class="news_update_content">『피크민 4』 프롤로그 트레일러가 공개되었습니다.</div>
+        <div class="news_update_category">뉴스</div>
+        <div class="news_update_date">2023.6.7</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic7.webp"></div>
+        <div class="news_update_content">대인원과 즐기는 파티 필수품! 『Everybody 1-2-Switch!』가 6월 30일 Nintendo Switch로 발매 예정! 오늘부터 다운로드 버전의 예약 판매가 시작됩니다.</div>
+        <div class="news_update_category">뉴스</div>
+        <div class="news_update_date">2023.6.22</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+
+      <li>
+        <div class="news_update_pic"><img src="pic/second_pic8.webp"></div>
+        <div class="news_update_content">쾌적한 실내에서 기르는 운동 습관! 『링 피트 어드벤처』로 피트니스를 시작해보는 건 어떨까요?</div>
+        <div class="news_update_category">뉴스</div>
+        <div class="news_update_date">2023.6.1</div>
+        <div class="news_update_next_icon"><i class="fa-solid fa-circle-chevron-right icon"></i></div>
+      </li>
+    </ul>
+    
+  </div>
+
+  <div class="bottom_box">
+    <div class="red_btn"><i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp더보기</div>
+  </div>
+
+  <div class="pay_bar"><img src="pic/nintendo_orange_banner.gif"></div>
+
+
+
 </body>
 </html>
