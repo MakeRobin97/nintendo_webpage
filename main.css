@@ -114,7 +114,7 @@ li {
     background-color: #E60012;
 
     border: none;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     color:silver;
   }
 }
@@ -123,6 +123,7 @@ li {
 
   .navbar {
     height:150px;
+    width:100%;
   }
 
   .navbar__logo{
