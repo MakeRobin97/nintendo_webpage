@@ -232,9 +232,14 @@ li {
   cursor: pointer;
 }
 
+.pay_bar {
+  overflow: hidden;
+}
+
 .pay_bar img{
   width:100%;
-  -webkit-transform:scale(1.5);  /*  크롬 */
+  /* -webkit-transform:scale(1.2);   크롬 */
+ 
 }
 
 
