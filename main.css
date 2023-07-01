@@ -1,0 +1,158 @@
+body {
+  margin:0;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  height:95px;
+  display:flex;
+}
+
+.navbar__logo {
+  background-color: #E60012;
+  width:15%;
+  height:95px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__logo img {
+  height:35%;
+}
+
+.navbar__menu {
+  display:flex;
+  width:85%;
+  padding-left:0;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+.navbar__menu i {
+  font-size: 20px;
+  padding-right:10px;
+  color:silver;
+}
+
+.navbar__menu li {
+  width:16%;
+  height:100%;
+  border-right: 1px solid silver;
+  border-bottom: 1px solid silver;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.navbar__menu li:nth-child(7) {
+  flex-direction: column;
+  align-items: center;
+  width:100px;
+  height:100%;
+}
+.navbar__menu li:nth-child(7) i {
+  padding-right:0px;
+}
+
+@media screen and (max-width: 1460px){
+  .navbar__menu li{
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1230px){
+  
+  .navbar {
+    height:160px;
+    background-color: #E60012;
+  }
+
+  .navbar__menu li:nth-child(7) {
+    position:absolute;
+    top:35px;
+    right:15px;
+    height:50px;
+    width:70px;
+    /* background-color: yellow; */
+    flex-direction: row;
+  }
+
+  .navbar__menu li:nth-child(7) i {
+    padding-right :10px;
+  }
+
+  .navbar{
+    flex-direction: column;
+    background-color: #E60012;
+  }
+
+  .navbar__menu{
+    width:100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0;
+    padding-left: 0px;
+  }
+  
+  .navbar__menu li {
+    
+    width:90%;
+    background-color: #E60012;
+
+    border: none;
+    padding-bottom: 15px;
+    color:silver;
+  }
+}
+
+@media screen and (max-width: 950px){
+
+  .navbar {
+    height:150px;
+  }
+
+  .navbar__logo{
+    height:70px;
+    margin-left:30px;
+  }
+
+  .navbar__menu {
+    width:97%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+
+  .navbar__menu li{
+    flex-direction: column;
+    font-size:12px;
+
+  }
+
+  .navbar__menu li i {
+    padding-right:0px;
+    padding-bottom: 5px;
+  }
+
+  .navbar__menu li:nth-child(7) {
+    top:25px;
+    right:14px;
+  }
+
+  .navbar__menu li:nth-child(7) i {
+    padding-right:8px
+  }
+}
