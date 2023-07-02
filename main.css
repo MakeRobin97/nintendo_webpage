@@ -101,7 +101,7 @@ li {
   width:20%;
   height:60px;
   padding-left:2%;
-  padding-right:2%;
+  :2%;
   background-color: white;
   border-right:1px solid silver;
   display:flex;
@@ -243,6 +243,378 @@ li {
 }
 
 
+/* 세번째 페이지 */
+
+/* .news_update_total li {
+  background-color: blue;
+} */
+
+.news_update_nintendo_switch {
+  position: absolute;
+  bottom:60px;
+  font-size: 12px;
+  color: rgb(140, 140, 140);
+}
+
+.news_update_third_date {
+  position: absolute;
+  bottom:45px;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(140, 140, 140);
+}
+
+.news_update_korea_nintendo {
+  position: absolute;
+  bottom:29px;
+  font-size: 12px;
+  color: rgb(140, 140, 140);
+}
+
+.news_update_version {
+  position: absolute;
+  bottom:13px;
+  font-size: 12px;
+  color: rgb(140, 140, 140);
+}
+
+.news_update_age img{
+  width:35px;
+  position:absolute;
+  right:0;
+  bottom:65px;
+}
+
+.news_update_korean img{
+  width:42px;
+  position:absolute;
+  right:0;
+  bottom:37px;
+}
+
+.news_update_third_next_icon i{
+  color:red;
+  position:absolute;
+  right:0;
+  bottom:16px;
+}
+
+
+/* 마지막 페이지 */
+.final_page {
+  margin:auto;
+  width:100%;
+}
+
+.more_box {
+  margin:auto;
+  width:100%;
+  height:350px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} 
+
+.more_list {
+  width: 25%;
+  margin-left:17px;
+  margin-right:17px;
+  /* margin-bottom:10px;
+  margin-top:10px; */
+
+}
+
+.more_list img {
+  width:100%;
+}
+
+.more_inf {
+  margin:auto;
+  width:70%;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top:40px;
+}
+
+.more_click_box {
+  
+  margin:auto;
+  margin-top: 25px;
+  width:90%;
+  height:110px;
+}
+
+.more_click_box {
+  padding-left: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more_click_box li i {
+  padding-right:25px;
+  padding-left: 25px;
+  font-size: 30px;
+}
+
+.more_click_box li {
+  display:flex;
+  align-items: center;
+  width:100%;
+  height:100%;
+  /* background-color: pink; */
+  border: 1px solid silver;
+  padding-left: 20px;
+  padding-right:  30px;
+}
+
+
+.final_page {
+
+}
+
+.final_inf_bar {
+  margin-top:100px;
+  width:100%;
+  height:100px;
+
+  border-top: 1px solid rgb(140, 140, 140);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.final_inf_bar_first {
+  width:26%;
+  height:65%;
+  /* background-color: pink; */
+  border-right: 1px solid rgb(140, 140, 140);
+
+  font-weight: 600;
+  position: relative;
+}
+
+.final_inf_bar_second {
+  width:74%;
+  height:65%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.final_inf_bar_second i {
+  color:red;
+}
+
+.final_inf_bar_first_inf {
+  position:absolute;
+  right:70px;
+  top:23px;
+}
+
+#final_inf_bar_second_inf {
+  position:absolute;
+  left:50px;
+  top:23px;
+}
+
+/* 닌텐도 바 */
+
+.nintendo_bar {
+  width:100%;
+  height: 50px;
+  background-color: #E60012;
+  position:relative;
+}
+
+
+
+.nintendo_bar_logo img {
+  width:100px;
+  position:absolute;
+  left:15px;
+  top:12px;
+}
+
+.up_btn {
+  width:25px;
+  height:25px;
+  border: 2px solid white;
+  border-radius: 20px;
+  position:absolute;
+  right:15px;
+  top:12px;
+  color:white;
+  cursor: pointer;
+}
+
+.up_btn i {
+  position: absolute;
+  top:3px;
+  right:4px;
+}
+
+.up_btn:hover {
+  width:70px;
+  background-color: white;
+  color:#E60012;
+}
+
+.hide {
+  display:none;
+}
+
+.up_btn_inf {
+  padding-left:12px;
+  font-weight:600;
+  padding-bottom: 5px;
+}
+
+.more_site {
+  width: 100%;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.more_site_sns_box {
+  display:flex;
+  align-items:  center;
+  justify-content: center;
+}
+
+.more_site_site_box {
+  display:flex;
+}
+
+.more_site_sns{
+  margin-left:10px;
+  margin-right:10px;
+  width:60px;
+  height:60px;
+}
+
+.more_site_sns img {
+  height:100%;
+  border-radius: 5px;
+}
+
+.more_site_site {
+  width:370px;
+  height:60px;
+  margin-left:7px;
+  margin-right:7px;
+} 
+
+.more_site_site img {
+
+  width:100%;
+  height:100%;
+  border-radius: 5px;
+  border:1px solid rgb(140, 140, 140);
+}
+
+
+.more_site div:nth-child(7) img{
+  border: 2px solid rgb(140, 140, 140);
+}
+
+.bottom_inf {
+  width:100%;
+  height:180px;
+  /* background-color: blue; */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom_inf_list {
+  height:80%;
+  width:200px;
+  margin-left:40px;
+  margin-right:40px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position:relative;
+  border: 1px solid white;
+}
+
+.up_red_line {
+  width:20px;
+  height:3px;
+  background-color: #E60012;
+  margin-bottom:10px;
+  position:absolute;
+}
+
+.bottom_inf_list_title {
+  font-weight:600;
+  position:absolute;
+  top:10px;
+}
+
+.bottom_inf_list_content {
+  margin-top:10%;
+  color:rgb(140, 140, 140);
+  font-size:14px;
+  position:absolute;
+  top:20px;
+}
+
+.footer {
+  background-color: rgb(245, 245, 245);
+  width:100%;
+  position: relative;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.promise {
+  color: rgb(140, 140, 140);
+  width:1000px;
+  margin: auto;
+}
+
+.promise span {
+  font-weight:600;
+  color:black;
+}
+
+.year {
+  color: rgb(140, 140, 140);
+  width:1000px;
+  margin: auto;
+}
+.name {
+  color: rgb(140, 140, 140);
+  width:1000px;
+  margin: auto;
+}
+
+.phone {
+  color: rgb(140, 140, 140);
+  position: absolute;
+  top:25px;
+  right:170px
+}
+
+.except {
+  color: rgb(140, 140, 140);
+  position: absolute;
+  top:50px;
+  right:170px;
+  font-size:13px;
+}
+
+
+
+
 @media screen and (max-width: 1460px){
   .navbar__menu li{
     font-weight: 500;
@@ -322,14 +694,77 @@ li {
     height:120px;
   }
 
+  .news_update_total li{
+    height:300px;
+  }
+
+  .more_click_box {
+    margin-top:80px;
+    flex-direction: column;
+  }
+
+  .more_click_box li {
+    padding-top:20px;
+    padding-bottom:20px;    
+  }
+
+  #final_inf_bar_second_inf {
+    font-size:13px;
+  }
+
+  .promise{
+    width:800px;
+  }
+
+  .phone{
+    position:static;
+    width:800px;
+    margin: auto;
+  }
+
+  .except{
+    position:static;
+    width:800px;
+    margin: auto;
+  }
+
+  .year{
+    width:800px;
+  }
+
+  .name{
+    width:800px;
+  }
+
+  .footer div {
+    padding-left:30px;
+  }
+
+  .more_site {
+    flex-direction: column;
+  }
+
+  .more_site_sns_box{
+    padding-bottom: 15px;
+  }
+
+  .bottom_inf_list_title {
+    font-size:12px;
+  }
+
+  .bottom_inf_list_content{
+    font-size:12px;
+  }
+
+  .footer div {
+    padding-left:10px;
+  }
+
+  .bottom_inf_list_title{
+    cursor: pointer;
+  }
+
 }
-
-
-
-
-
-
-
 
 
 
@@ -347,7 +782,7 @@ li {
   }
 
   .navbar__menu {
-    width:97%;
+    width:100%;
     padding-left: 1.5%;
     padding-right: 1.5%;
   }
@@ -440,4 +875,216 @@ li {
     height:100px;
   }
 
+  .more_box {
+    height:300px;
+  }
+
+  .more_list {
+    width:33%;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    margin-top:5px;
+    }
+
+  .final_inf_bar {
+    flex-direction: column;
+
+  }
+
+  .final_inf_bar_first{
+    width:30%;
+    border-top:2px solid rgb(140, 140, 140);
+    border-right:none;
+  }
+
+  .final_inf_bar_first_inf{
+    height:100%;
+    position:static;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(140, 140, 140);
+  }
+
+  .final_inf_bar_second {
+    width:90%;
+  }
+
+  #final_inf_bar_second_inf {
+    position:static;
+  }
+
+  .more_site_site_box {
+    flex-direction: column;
+  }
+
+  .more_site_site{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+  .more_site_site img {
+  }
+
+  .more_inf{
+    padding-top:20px;
+  }
+
+  .footer div {
+    width:100%;
+  }
+
+  .more_site_sns_box{
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+
+  .more_site_site_box {
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .more_site_site{
+    margin:auto;
+    width:80%; 
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .bottom_inf {
+    width:100%;
+  }
+
+  .bottom_inf_list {
+    
+    margin-left:0;
+    margin-right:0;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 468px){
+
+  .news_update_version{
+    font-size:10px;
+  }
+  .more_box {
+    height:210px;
+  }
+}
+
+@media screen and (max-width: 435px){
+  
+  .navbar {
+    height:150px;
+    width:100%;
+  }
+
+  .navbar__logo{
+    height:70px;
+    margin-left:30px;
+  }
+
+  .navbar__menu {
+    width:100%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+
+  .navbar__menu span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:25px;
+  }
+
+  .navbar__menu li i {
+    padding-right:0px;
+    padding-bottom: 5px;
+  }
+  
+}
+
+@media screen and (max-width: 380px){
+  .news_update_version {
+    zoom: 0.9;
+    bottom:17px;
+  }
+
+  .news_update_content{
+    font-size:12px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 370px){
+  .news_update_nintendo_switch {
+    zoom: 0.9;
+  }
+
+  .news_update_third_date{
+    zoom: 0.9;
+  }
+
+  .news_update_korea_nintendo {
+    zoom: 0.9;
+  }
+
+
+  .news_update_version {
+    zoom: 0.9;
+    bottom:17px;
+  }
+
+  .news_update_age{
+    zoom: 0.9;
+  }
+
+  .news_update_korean {
+    zoom: 0.9;
+  }
+
+  .news_update_third_next_icon i{
+    zoom: 0.7;
+    bottom:24px;
+  }
+
+  .final_inf_bar {
+    margin-top:150px;
+  }
+
+  .final_inf_bar_first_inf{
+    font-size:13px;
+  }
+
+  .more_click_box li:nth-child(1){
+    margin-top:50px;
+  }
+
+  .more_site_sns img{
+    width:40px;
+    height:40px;
+  }
+
+}
+
+
+@media screen and (max-width: 335px){
+  .news_update_third_next_icon i{
+    display:none
+  }
 }
