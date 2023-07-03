@@ -1350,7 +1350,6 @@ li {
   }
   .nintendo_switch_box_first{
     width:63%;
-
   }
 
   .nintendo_switch_pic img{
@@ -1631,12 +1630,16 @@ li {
     margin-right:0;
   }
 
+  
+
   .navbar_device_inf_second {
     padding-left:0;
+    background-color: blue;
   }
 
   .navbar_device_inf_second img {
     margin-left:25px;
+    background-color:red;
   }
 
   .navbar__menu li:hover i:nth-child(1)  {
@@ -1757,7 +1760,29 @@ li {
     justify-content: center;
   }
 
+  .navbar_device_inf_second .mouseover {
+    padding-left:0;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
 
+  .navbar_device_inf_second .mouseover1 {
+    padding-left:0;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+  .nintendo_switch_box_first {
+    padding-top:10px;
+  }
+  
+  .nintendo_switch {
+
+  }
+  
+  .nintendo_switch_pic {
+    height:50%;
+  }
 
 }
 
