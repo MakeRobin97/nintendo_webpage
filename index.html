@@ -16,20 +16,229 @@
 <body>
   
   <!-- 네비게이션 바 -->
-  <nav class="navbar">
+  <div class="navbar">
     <div class="navbar__logo">
       <img src="pic/nintendo.png">
     </div>
     <ul class="navbar__menu">
-      <li><i class="fa-solid fa-gamepad"></i><span>본체 및 amiibo</span></li>
-      <li><i class="fa-solid fa-star"></i><span>소프트웨어</span></li>
-      <li><i class="fa-regular fa-newspaper"></i><span>News</span></li>
-      <li><i class="fa-solid fa-ship"></i><span>캐릭터</span></li>
-      <li><i class="fa-solid fa-wrench"></i><span>고객지원</span></li>
-      <li><i class="fa-solid fa-cart-shopping"></i><span>다운로드 구입</span></li>
-      <li><i class="fa-solid fa-magnifying-glass"></i><span>검색</span></li>
+      <li class="navbar_device"><i class="fa-solid fa-gamepad"></i><span>본체 및 amiibo</span></li>
+      <li class="navbar_software"><i class="fa-solid fa-star"></i><span>소프트웨어</span></li>
+      <li class="navbar_news"><i class="fa-regular fa-newspaper"></i><span>News</span></li>
+      <li class="navbar_character"><i class="fa-solid fa-ship"></i><span>캐릭터</span></li>
+      <li class="navbar_spanner"><i class="fa-solid fa-wrench"></i><span>고객지원</span></li>
+      <li class="navbar_shopping"><i class="fa-solid fa-cart-shopping"></i><span>다운로드 구입</span></li>
+      <li class="navbar_search"><i class="fa-solid fa-magnifying-glass"></i><span>검색</span></li>
     </ul>
-  </nav>
+
+    <!-- 본체 더보기 -->
+    <div class="navbar_device_inf navbar_device_design">
+      <div class="navbar_device_inf_first">
+        <img src="pic/joystick_inf_pic1.png">
+      </div>
+      <div class="navbar_device_inf_second">
+        <div class="mouseover">
+          <img src="pic/joystick_inf_pic2.png">
+          amiibo
+        </div>
+        <div class="mouseover1">
+          <div><img src="pic/joystick_inf_pic3.png"></div>
+          <span>게임 & 워치 젤다의 전설</span>
+        </div>
+        <div class="navbar_device_comparison"><i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp기능 특징을 비교</div>
+        <div class="navbar_device_device"><i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp주변기기</div>
+      </div>
+
+      <div class="exit_btn hide">
+        <div class="exit_btn_exit"><i class="fa-solid fa-circle-xmark"></i></div>
+        <div class="exit_btn_content">닫기</div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <!-- 소프트웨어 더보기 -->
+    <div class="navbar_software_inf navbar_device_design">
+      <div class="navbar_software_inf_first">
+        <div class="mouseover_software">
+          <div class="nintendo_switch">
+            <div class="nintendo_switch_logo"><i class="fa-solid fa-gamepad"></i></div>
+            <div class="nintendo_switch_name">Nintnedo Switch <br>소프트웨어</div>
+          </div>
+          <div class="nintendo_switch_pic">
+            <img src="pic/star_inf_pic1.png">
+            <img src="pic/star_inf_pic2.png">
+            <img src="pic/star_inf_pic3.png">
+            <img src="pic/star_inf_pic4.png">
+          </div>
+        </div>
+
+        <div class="mouseover_software">
+          <div class="smart_phone">
+            <div class="nintendo_switch_logo"><i class="fa-solid fa-mobile"></i></div>
+            <div class="nintendo_switch_name">스마트폰용 앱</div>
+          </div>
+          <div class="smart_phone_pic">
+            <img src="pic/star_inf_pic5.png">
+            <img src="pic/star_inf_pic6.png">
+            <img src="pic/star_inf_pic7.png">
+          </div>
+        </div>
+      </div>
+      <div class="navbar_software_inf_second">
+        <div class="mouseover">
+          <img src="pic/star_inf_pic8.png">
+          Nintendo Switch Online
+        </div>
+        <div class="navbar_software_experience"><i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp체험판을 즐길 수 있는 소프트웨어</div>
+        <div class="navbar_software_schedule"><i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp소프트웨어 발매 스케줄</div>
+      </div>
+    </div>
+
+
+
+    <!-- 뉴스 더보기 -->
+    <div class="navbar_news_inf navbar_device_design">
+      <div class="navbar_news_inf_first">
+
+        <div class="navbar_news_inf_first_list">
+          <img src="pic/news_inf_pic1.png">
+          <div class="navbar_news_inf_first_list_content">『슈퍼 마리오브라더스 원더』, 『슈퍼 마리오 RPG』, 『끝내주게 춤춰라 메이드 인 와리오』, 「돌아온 명탐정 피카츄」등, Nintendo Switch로 발매되는 타이틀의 최신 정보를 전달!</div>
+          <div class="navbar_news_inf_first_list_inf">보도자료 / 2023.06.22</div>
+        </div>
+
+        <div class="navbar_news_inf_first_list">
+          <img src="pic/news_inf_pic2.png">
+          <div class="navbar_news_inf_first_list_content">『드래곤 퀘스트 몬스터즈 3 마족 왕자와 엘프의 여행』, 『페르소나5 택티카』, 『우마무스메 프리티 더비 열혈 우당탕탕 대감사제』, 『Vampire Survivors』 등, Nintendo Switch로 발매되는 소프트웨어 메이커 타이틀의 최신 정보를 소개!</div>
+          <div class="navbar_news_inf_first_list_inf">뉴스 / 2023.06.19</div>
+        </div>
+        
+        <div class="navbar_news_inf_first_list">
+          <img src="pic/news_inf_pic3.png">
+          <div class="navbar_news_inf_first_list_content">『베리드 스타즈』를 기간 한정으로 마음껏 즐기자!  Nintendo Switch Online 가입자 한정 이벤트 「게임 트라이얼」 개최! </div>
+          <div class="navbar_news_inf_first_list_inf">뉴스 / 2023.06.30</div>
+        </div>
+
+        <div class="navbar_news_inf_first_list">
+          <img src="pic/news_inf_pic4.png">
+          <div class="navbar_news_inf_first_list_content">무료 소프트웨어 소개! Nintendo Switch로 발매된 『Pokémon UNITE』 등 7개 무료 소프트웨어들을 확인해 보세요!</div>
+          <div class="navbar_news_inf_first_list_inf">보도자료 / 2023.06.22</div>
+        </div>
+
+        <div class="navbar_news_inf_first_list">
+          <img src="pic/news_inf_pic5.png">
+          <div class="navbar_news_inf_first_list_content">Nintendo Switch 소프트웨어 『Minecraft』의 최신 대형 업데이트 「Trails & Tails」가 오늘부터 배포 개시</div>
+          <div class="navbar_news_inf_first_list_inf">보도자료 / 2023.06.29</div>
+        </div>
+
+
+      </div>
+
+      <div class="navbar_news_inf_second">
+        <div class="navbar_news_more"><i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp News 목록</div>
+  
+      </div>
+    </div>
+
+    <!-- 캐릭터 더보기 -->
+    <div class="navbar_character_inf navbar_device_design">
+      <div class="navbar_character_total">
+        <div class="navbar_character_list">
+          <img src="pic/mario_inf_pic1.png">
+          마리오  
+        </div>
+        <div class="navbar_character_list">
+          <img src="pic/mario_inf_pic2.png">
+          별의 커비  
+        </div>
+        <div class="navbar_character_list">
+          <img src="pic/mario_inf_pic3.png">
+          스플래툰
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 고객지원 더보기 -->
+
+    <div class="navbar_spanner_inf navbar_device_design">
+      <div class="navbar_spanner_inf_first">
+        <div class="navbar_spanner_inf_first_list">
+          <i class="fa-solid fa-gamepad"></i>
+          Nintendo Switch 고객지원
+        </div>
+        <div class="navbar_spanner_inf_first_list">
+          <i class="fa-sharp fa-solid fa-dice"></i>
+          닌텐도 3DS 고객지원
+        </div>
+        <div class="navbar_spanner_inf_first_list">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          온라인 수리접수
+        </div>
+        <div class="navbar_spanner_inf_first_list">
+          <i class="fa-solid fa-person-military-pointing abc"></i>
+          고객지원 홈페이지
+        </div>
+        <div class="navbar_spanner_inf_first_list">
+          <i class="fa-solid fa-globe"></i>
+          Nintendo Switch Online 서포트
+        </div>
+        <div class="navbar_spanner_inf_first_list">
+          <i class="fa-solid fa-wifi"></i>
+          네트워크 장애 발생 상황
+        </div>
+      </div>
+
+      <div class="navbar_spanner_inf_second">
+        <div class="navbar_spanner_more"><i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp 고객지원 목록</div>
+      </div>
+    </div>
+
+
+
+    <!-- 다운로드 구입 더보기 -->
+
+    <div class="navbar_shopping_inf navbar_device_design">
+      <div class="navbar_shopping_eshop">
+        <i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp 닌텐도 e숍
+      </div>
+      <div class="navbar_shopping_online_store">
+        <i class="fa-solid fa-circle-chevron-right icon"></i>&nbsp 닌텐도 온라인 스토어
+      </div>
+    </div>
+
+
+
+    <!-- 검색 더보기 -->
+
+    <div class="navbar_search_inf navbar_device_design">
+      <div class="navbar_search_inf_search_bar">
+        <div class="search_bar_logo">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- <input class='search_input_box' type="search" size="80" 
+        onfocus="this.placeholder=''" onblur="this.placeholder='키워드를 입력해 주세요'"
+        placeholder="키워드를 입력해 주세요" onkeyup="인풋로직()"> -->
+
+        <input class='test' type="text" size="70" onfocus="this.placeholder=''" 
+        onblur="this.placeholder='키워드를 입력해 주세요'"
+        placeholder="키워드를 입력해 주세요">
+
+        <div class="search_bar_logo_remove"><i class="fa-solid fa-delete-left"></i></div>
+        <div class="search_btn">검색</div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
 
   <!-- 캐러셀 -->
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -50,14 +259,14 @@
         <img src="pic/main_pic5.webp" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
+    </button> -->
   </div>
 
   <ul class="game_bar">

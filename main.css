@@ -18,6 +18,7 @@ li {
   display:flex;
   padding: 0;
   padding-top:0px;
+  position:relative;
 }
 
 .navbar__logo {
@@ -69,15 +70,508 @@ li {
   width:100px;
   height:100%;
   font-size:15px;
+  border-right: none;
 }
 .navbar__menu li:nth-child(7) i {
   padding-right:0px;
   font-size:20px;
   padding-bottom: 5px;
+
+}
+
+
+/* 자세히 보기 */
+.navbar_device_design
+ {
+  width:100%;
+  background-color: white;
+  position:absolute;
+  top:95px;
+  z-index:1;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow:hidden;
+  transition: height .1s;
+}
+
+.navbar_device_inf {
+  height:0;
+}
+
+.navbar_software_inf {
+  height:0;
+}
+
+.navbar_news_inf {
+  height:0;
+}
+
+.navbar_character_inf {
+  height:0;
+}
+
+.navbar_spanner_inf {
+  height:0;
+}
+
+.navbar_shopping_inf {
+  height:0;
+}
+
+.navbar_search_inf {
+  height:0;
+}
+
+
+.navbar_device_inf_first {
+  width:900px;
+  height:180px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(140, 140, 140);
+}
+
+.navbar_device_inf_first img {
+  width:90%;
+}
+
+.navbar_device_inf_second {
+  width:900px;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left:45px;
+  font-size:12px;
+  position:relative;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+.navbar_device_inf_second img {
+  width:120px;
+  padding-right:10px;
+}
+
+.navbar_device_comparison {
+  position:absolute;
+  right:150px;
+  font-size:14px;
+}
+
+.navbar_device_comparison i{
+  color:red;
+}
+
+.navbar_device_device {
+  font-size:14px;
+  position:absolute;
+  right:50px;
+}
+
+.navbar_device_device i{
+  color:red;
+}
+
+.navbar_device_inf_first:hover{
+  opacity: 0.7;
+}
+
+.mouseover{
+  margin-right:70px;
+}
+
+.mouseover1{
+  margin-right:70px;
+  display:flex;
+  align-items: center;
+}
+
+.mouseover:hover,
+.mouseover1:hover,
+.navbar_device_comparison:hover,
+.navbar_device_device:hover{
+  color:red;
+  opacity: 0.7;
 }
 
 
 
+.exit_btn {
+  width: 90%;
+  height:40px;
+  background-color: rgb(230, 230, 230);
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  display:flex;
+  align-items: center;
+}
+
+.exit_btn_exit {
+  font-size:20px;
+  text-align: center;
+  width:7%;
+  border-right: 1px silver solid;
+}
+
+.exit_btn_content{
+  text-align: center;
+  width:93%;
+
+}
+
+.navbar_device,
+.navbar_software,
+.navbar_news,
+.navbar_character,
+.navbar_sapnner,
+.navbar_shopping,
+.navbar_search
+{
+  cursor: pointer;
+}
+
+
+
+/* 소프트웨어 더보기 */
+
+
+
+.navbar_software_inf_first{
+  width:1100px;
+  height:150px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(140, 140, 140);
+}
+
+.mouseover_software {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mouseover_software:hover{
+  opacity: 0.7;
+  color:red;
+}
+
+.navbar_software_inf_second{
+  width:1100px;
+  height:90px;
+}
+
+
+.nintendo_switch_logo {
+  font-size:50px;
+  color:rgb(140, 140, 140);
+  text-align: center;
+}
+
+.nintendo_switch_name {
+  text-align: center;
+  font-weight:600;
+  font-size:15px;
+}
+
+.nintendo_switch_pic {
+  height:140px;
+  display:flex;
+  margin-left:20px;
+  margin-right:40px;
+}
+
+.nintendo_switch_pic img {
+  width:100%;
+  height:100%;
+}
+
+.smart_phone_pic {
+  height:140px;
+  display:flex;
+  background-color: pink;
+  margin-left:20px;
+}
+
+.smart_phone_pic img {
+  width:100%;
+  height:100%;
+}
+
+.navbar_software_inf_second {
+  position: relative;
+  display:flex;
+  align-items: center;
+  font-weight:600;
+}
+
+.navbar_software_inf_second img {
+  width:120px;
+  margin-right:10px;
+}
+
+.navbar_software_experience{
+  position:absolute;
+  right:220px;
+  font-size:15px;
+  font-weight:600;
+}
+
+.navbar_software_experience i{
+  color:red;
+}
+
+.navbar_software_schedule {
+  position:absolute;
+  right:10px;
+  font-size:15px;
+  font-weight:600;
+}
+
+.navbar_software_schedule i{
+  color:red;
+}
+
+.navbar_software_experience:hover{
+  opacity: 0.7;
+  color:red;
+}
+
+.navbar_software_schedule:hover{
+  opacity: 0.7;
+  color:red;
+}
+
+
+/* 뉴스 더보기 */
+
+.navbar_news_inf_first{
+  display:flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(140, 140, 140);
+}
+
+.navbar_news_inf_first_list {
+  margin-top:20px;
+  width:230px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.navbar_news_inf_first_list img{
+  width:100%;
+}
+
+.navbar_news_inf_first_list_content{
+  font-size: 13px;
+  height:120px;
+  font-weight:600;
+}
+
+.navbar_news_inf_first_list_inf {
+  font-size: 11px;
+  color:rgb(140, 140, 140);
+}
+
+.navbar_news_inf_second {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.navbar_news_more i {
+  color:red;
+}
+
+.navbar_news_more {
+  font-weight:600;
+}
+
+.navbar_news_inf_first_list:hover {
+  opacity: 0.7;
+}
+
+.navbar_news_inf_second:hover {
+  opacity: 0.7;
+  color:red;
+}
+
+
+/* 캐릭터 더보기 */
+.navbar_character_total {
+  display:flex;
+}
+
+.navbar_character_list {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:25px;
+  padding-bottom:20px;
+  font-weight:600;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.navbar_character_list img {
+  width:230px;
+  padding-bottom:20px;
+}
+
+.navbar_character_list:hover{
+  opacity: 0.7;
+}
+
+
+/* 고객지원 더보기 */
+
+.navbar_spanner_inf_first{
+  width:1200px;
+  height:150px;
+
+  border-bottom: 1px solid rgb(140, 140, 140);
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+.navbar_spanner_inf_second {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.navbar_spanner_more i {
+  color:red;
+}
+
+.navbar_spanner_inf_second {
+  font-weight:600;
+}
+
+.navbar_spanner_more:hover {
+  opacity: 0.7;
+  color:Red;
+}
+
+.navbar_spanner_inf_first{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar_spanner_inf_first_list{
+  display:flex;
+  flex-direction: column;
+  margin-left:20px;
+  margin-right:20px;
+  width:110px;
+  height:110px;
+  font-size:13px;
+  text-align: center;
+  align-items: center;
+  font-weight:600;
+}
+
+.navbar_spanner_inf_first_list i {
+  font-size:50px;
+  text-align: center;
+  color:rgb(140, 140, 140);
+  padding-bottom:10px;
+}
+
+.navbar_spanner_inf_first_list:hover{
+  opacity: 0.7;
+}
+
+
+
+
+/* 다운로드 구입 더보기 */
+
+.navbar_shopping_inf {
+  display:flex;
+  flex-direction: row;
+}
+
+.navbar_shopping_eshop{
+  color:red;
+  font-size:18px;
+  font-weight:600;
+  padding-top:60px;
+  padding-bottom:60px;
+  margin-left:80px;
+  margin-right:80px;
+}
+
+.navbar_shopping_online_store {
+  color:red;
+  font-size:18px;
+  font-weight:600;
+  padding-top:60px;
+  padding-bottom:60px;
+  margin-left:80px;
+  margin-right:80px;
+}
+
+
+/* 검색 더보기 */
+
+.navbar_search_inf_search_bar{
+  width:800px;
+  height:60px;
+  border: 1px solid rgb(140, 140, 140);
+  border-radius: 5px;
+  margin-top:20px;
+  margin-bottom:20px;
+  position: relative;
+  display:flex;
+  align-items: center;
+}
+
+.search_bar_logo {
+  position:absolute;
+  left:35px;
+  font-size:20px
+}
+
+.navbar_search_inf_search_bar input {
+  position:absolute;
+  left:70px;
+  border:none;
+  outline:none;
+}
+
+.search_bar_logo_remove {
+  position:absolute;
+  right:110px;
+  font-size:30px;
+  padding-left:10px;
+  padding-right:10px;
+  height:30px;
+  display:flex;
+  align-items: center;
+  border-right: 1px dotted rgb(230, 230, 230);
+  color:rgb(180, 185, 197)
+}
+
+.search_btn {
+  position:absolute;
+  right:15px;
+  width:80px;
+  height:40px;
+  background-color: rgb(230, 230, 230);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:600;
+  border-radius: 5px;
+  color:rgb(180, 185, 197)
+}
 
 /* 캐러셀 */
 .carousel {
@@ -101,7 +595,7 @@ li {
   width:20%;
   height:60px;
   padding-left:2%;
-  :2%;
+  padding-right:2%;
   background-color: white;
   border-right:1px solid silver;
   display:flex;
@@ -764,6 +1258,41 @@ li {
     cursor: pointer;
   }
 
+  .navbar_device_design{
+    top:162px;
+  }
+
+  .navbar_device_inf_first {
+    width:85%;
+    height: 250px;
+  }
+
+  .navbar_device_inf_second {
+    width:100%;
+  } 
+
+  .navbar_device_inf_second {
+    width:85%;
+    margin-bottom:0; 
+  }
+
+  .navbar_device_comparison{
+    top:15px;
+    right:50px;
+  }
+
+  .navbar_device_device{
+    top:35px;
+    right:50px;
+}
+
+  .navbar_device_inf {
+    /* height:200px; */
+    /* background-color: yellow; */
+  }
+
+
+
 }
 
 
@@ -966,6 +1495,69 @@ li {
     margin-left:0;
     margin-right:0;
   }
+
+  .navbar_device_design{
+    top:152px;
+  }
+
+  .navbar_device_inf_first{
+    height: 125px;
+    width:100%;
+  }
+
+  .navbar_device_inf_second{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    /* padding-left:0; */
+    /* background-color: pink; */
+  }
+
+  .mouseover{
+    width:100%;
+    padding-top:10px;
+
+    border-bottom:1px solid rgb(230, 230, 230);
+    padding-bottom:15px;
+  }
+
+  .mouseover1{
+    width:100%;
+    padding-top:10px;
+
+    border-bottom:1px solid rgb(230, 230, 230);
+    padding-bottom:15px;
+  }
+
+  .navbar_device_comparison{
+    width:100%;
+    position:static;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+
+  .navbar_device_device{
+    width:100%;
+    position:static;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+
+  .mouseover,
+  .mouseover1{
+    margin-right:0;
+  }
+
+  .navbar_device_inf_second {
+    padding-left:0;
+  }
+
+  .navbar_device_inf_second img {
+    margin-left:25px;
+  }
+
 
 }
 
