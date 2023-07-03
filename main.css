@@ -314,15 +314,15 @@ li {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
 } 
 
 .more_list {
   width: 25%;
   margin-left:17px;
   margin-right:17px;
-  /* margin-bottom:10px;
-  margin-top:10px; */
-
+  margin-bottom:5px;
+  margin-top:5px;
 }
 
 .more_list img {
