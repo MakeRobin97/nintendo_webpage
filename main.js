@@ -4,8 +4,6 @@ window.addEventListener('resize',function(){
   console.log(window.innerWidth)
   if(window.innerWidth<=1230){
 
-    document.querySelector('.navbar_device').style.color='#C0C0C0';
-    document.querySelector('.navbar_device i').style.color='#C0C0C0';
 
     document.querySelectorAll('.bottom_inf_list_content')[0].classList.add('hide')
     document.querySelectorAll('.bottom_inf_list_content')[1].classList.add('hide')
@@ -17,7 +15,7 @@ window.addEventListener('resize',function(){
 
   } else {
 
-    document.querySelector('.navbar_device').style.color='black';
+
     document.querySelectorAll('.bottom_inf_list_content')[0].classList.remove('hide')
     document.querySelectorAll('.bottom_inf_list_content')[1].classList.remove('hide')
     document.querySelectorAll('.bottom_inf_list_content')[2].classList.remove('hide')
@@ -101,4 +99,54 @@ document.querySelector('.navbar_device').addEventListener('mouseout',function(){
 
 
 
+
+document.querySelector('.navbar_device_inf').addEventListener('mouseover',function(){
+
+
+  if(window.innerWidth>=1230){
+  document.querySelector('.navbar_device_inf').style.height='280px';
+
+  } else if ((window.innerWidth<1230 && window.innerWidth>868)){
+    document.querySelector('.navbar_device_inf').style.height='290px';
+
+  } else if((window.innerWidth<=868)) {
+    document.querySelector('.navbar_device_inf').style.height='500px';
+
+  }
+})
+
+document.querySelector('.navbar_device_inf').addEventListener('mouseout',function(){
+
+  if(window.innerWidth>=1230){
+  document.querySelector('.navbar_device_inf').style.height='0px';
+
+  } else if ((window.innerWidth<1230 && window.innerWidth>868)){
+    document.querySelector('.navbar_device_inf').style.height='0px';
+
+  } else if((window.innerWidth<=868)) {
+    document.querySelector('.navbar_device_inf').style.height='0px';
+  }
+
+})
+
+document.querySelector('.exit_btn').addEventListener('click',function(){
+  document.querySelector('.navbar_device_inf').style.height='0px';
+})
+
+
+
+
+document.querySelector('.navbar_device').addEventListener('click',function(){
+
+  if(window.innerWidth>=1230){
+  document.querySelector('.navbar_device_inf').style.height='280px';
+
+  } else if ((window.innerWidth<1230 && window.innerWidth>868)){
+    document.querySelector('.navbar_device_inf').style.height='290px';
+
+  } else if((window.innerWidth<=868)) {
+    document.querySelector('.navbar_device_inf').style.height='500px';
+
+  }
+})
 
