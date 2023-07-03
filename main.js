@@ -74,46 +74,28 @@ document.querySelector('.navbar_device').addEventListener('mouseover',function()
 
 
   if(window.innerWidth>=1230){
-  document.querySelector('.navbar_device_inf').style.height='280px'
-  document.querySelector('.navbar_device').style.color='red';
-  document.querySelector('.navbar_device i').style.color='red';
-  document.querySelector('.navbar_device').style.borderBottom = "4px solid red";
+  document.querySelector('.navbar_device_inf').style.height='280px';
 
   } else if ((window.innerWidth<1230 && window.innerWidth>868)){
-    document.querySelector('.navbar_device_inf').style.height='290px'
-    document.querySelector('.navbar_device').style.color='white';
-    document.querySelector('.navbar_device i').style.color='white';
-    document.querySelector('.navbar_device').style.borderBottom = "4px solid white";
+    document.querySelector('.navbar_device_inf').style.height='290px';
+
   } else if((window.innerWidth<=868)) {
-    document.querySelector('.navbar_device_inf').style.height='500px'
-    document.querySelector('.navbar_device').style.color='white';
-    document.querySelector('.navbar_device i').style.color='white';
-    document.querySelector('.navbar_device').style.borderBottom = "4px solid white";
+    document.querySelector('.navbar_device_inf').style.height='500px';
+
   }
 })
 
 document.querySelector('.navbar_device').addEventListener('mouseout',function(){
 
   if(window.innerWidth>=1230){
-  document.querySelector('.navbar_device').style.color='black';
-  document.querySelector('.navbar_device i').style.color='#C0C0C0';
-  document.querySelector('.navbar_device').style.borderBottom = "1px solid silver";
   document.querySelector('.navbar_device_inf').style.height='0px';
 
   } else if ((window.innerWidth<1230 && window.innerWidth>868)){
-
-    document.querySelector('.navbar_device').style.color='#C0C0C0';
-    document.querySelector('.navbar_device i').style.color='#C0C0C0';
-    document.querySelector('.navbar_device').style.borderBottom = 'none';
     document.querySelector('.navbar_device_inf').style.height='0px';
-  } else if((window.innerWidth<=868)) {
 
-    document.querySelector('.navbar_device').style.color='#C0C0C0';
-    document.querySelector('.navbar_device i').style.color='#C0C0C0';
-    document.querySelector('.navbar_device').style.borderBottom = 'none';
+  } else if((window.innerWidth<=868)) {
     document.querySelector('.navbar_device_inf').style.height='0px';
   }
-
 
 })
 

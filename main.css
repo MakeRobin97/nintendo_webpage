@@ -1106,6 +1106,14 @@ li {
   font-size:13px;
 }
 
+.navbar__menu li:hover i:nth-child(1)  {
+  color:red;
+}
+
+.navbar__menu li:hover {
+  color:red;
+}
+
 
 
 
@@ -1291,7 +1299,14 @@ li {
     /* background-color: yellow; */
   }
 
-
+  .navbar__menu li:hover i:nth-child(1)  {
+    color:white;
+  }
+  
+  .navbar__menu li:hover {
+    color:white;
+    border-bottom: 2px solid white;
+  }
 
 }
 
@@ -1558,6 +1573,15 @@ li {
     margin-left:25px;
   }
 
+  .navbar__menu li:hover i:nth-child(1)  {
+    color:white;
+  }
+  
+  .navbar__menu li:hover {
+    color:white;
+    border-bottom: 2px solid white;
+  }
+  
 
 }
 
