@@ -1634,12 +1634,12 @@ li {
 
   .navbar_device_inf_second {
     padding-left:0;
-    background-color: blue;
+
   }
 
   .navbar_device_inf_second img {
     margin-left:25px;
-    background-color:red;
+
   }
 
   .navbar__menu li:hover i:nth-child(1)  {
