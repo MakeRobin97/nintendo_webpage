@@ -245,13 +245,12 @@ function detail (a,b,c,d,e){
   
   })
   
-  // document.querySelector('.exit_btn').addEventListener('click',function(){
-  //   document.querySelector(b).style.height='0px';
-  // })
   
   $('.exit_btn').click(function(){
     document.querySelector(b).style.height='0px';
   })
+
+  
 
   
   document.querySelector(a).addEventListener('click',function(){
@@ -273,3 +272,11 @@ function detail (a,b,c,d,e){
 
 detail('.navbar_device','.navbar_device_inf','280px','290px','500px')
 detail('.navbar_software','.navbar_software_inf','280px','290px','600px')
+
+detail('.navbar_news','.navbar_news_inf','400px','400px','400px')
+
+
+detail('.navbar_character','.navbar_character_inf','280px','290px','600px')
+detail('.navbar_spanner','.navbar_spanner_inf','280px','290px','500px')
+detail('.navbar_shopping','.navbar_shopping_inf','100px','200px','180px')
+detail('.navbar_search','.navbar_search_inf','150px','290px','200px')
