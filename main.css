@@ -295,7 +295,7 @@ li {
 .smart_phone_pic {
   height:140px;
   display:flex;
-  background-color: pink;
+
   margin-left:20px;
 }
 
@@ -1308,6 +1308,72 @@ li {
     border-bottom: 2px solid white;
   }
 
+  .navbar_software_inf_first{
+    width:100%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:0;
+  }
+
+  .nintendo_switch_name {
+    font-size:12px;
+  }
+
+  .mouseover_software {
+    height:100%;
+    width:100%;
+
+  }
+
+  .nintendo_switch_box_first{
+  }
+
+  .nintendo_switch_pic {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:0;
+
+  }
+
+  .nintendo_switch_pic img {
+    width:120px;
+    height:120px;
+
+  }
+
+  .navbar_software_inf_second{
+    width:98%;
+
+  }
+  .nintendo_switch_box_first{
+    width:63%;
+
+  }
+
+  .nintendo_switch_pic img{
+    height:90%;
+  }
+
+  .smart_phone_pic {
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .smart_phone_pic img {
+    height:90%;
+  }
+
+  .nintendo_switch_box_second{
+    width:37%;
+
+  }
+
+
 }
 
 
@@ -1581,7 +1647,117 @@ li {
     color:white;
     border-bottom: 2px solid white;
   }
+
+  .navbar_software_inf {
+    position:absolute;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+  }
+
+
+
+  .navbar_software_inf_first{
+
+    padding-top:10px;
+    padding-bottom:10px;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    height:70%;
+    margin-top:0;
+    padding-top:0;
+    padding-bottom:0;
+    border-bottom: none;
+  } 
+
+
+  /* 닌텐도 스위치 소프트웨어 */
+  .nintendo_switch_box_first{
+    width:100%;
+    height:50%;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+
+  .nintendo_switch_pic {
+    margin-left:0;
+  }
+
+  .nintendo_switch_pic img{
+    width:50%;
+    height:50%;
+    margin-left:5px;
+    margin-right:5px;
+  }
+
+
+  /* 스마트폰용 앱 */
+  .nintendo_switch_box_second{
+    width:100%;
+    height:50%;
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+
+  .nintendo_switch{
+    height:80px;
+  }
+
+  .nintendo_switch_logo{
+    margin-top:0;
+    padding-top:0;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nintendo_switch_pic img {
+    height:80px;
+  }
+
+  .smart_phone_pic img {
+    height:140px;
+  }
   
+  .navbar_software_inf_second {
+    width:100%;
+    height:30%;
+  }
+
+  .navbar_software_inf_second {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .mouseover {
+    padding-left:30px;
+    padding-top:0;
+    padding-bottom:0;
+    height:40%;
+    display:flex;
+    align-items: center;
+  }
+
+  .navbar_software_experience {
+    position:static;
+    height:30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar_software_schedule {
+    position:static;
+    height:30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 
 }
 
