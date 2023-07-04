@@ -579,6 +579,47 @@ li {
 }
 
 
+
+.left_btn{
+  width:40px;
+  height:100px;
+  background-color: #E60012;
+  position:absolute;
+  left:0;
+  top:40%;
+  border:none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_btn {
+  width:40px;
+  height:100px;
+  background-color: #E60012;
+  position:absolute;
+  right:0;
+  top:40%;
+  border:none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev-icon {
+  width:70%;
+}
+
+
+.carousel-control-next-icon {
+  width:70%;
+}
+
+.hide_btn {
+  display:none;
+}
+
+
 /* 게임바 */
 .game_bar{
   width:100%;
@@ -615,6 +656,14 @@ li {
   left:90px;
   font-size: 15px;
   font-weight:600;
+}
+
+.game_bar li {
+  cursor: pointer;
+}
+
+.game_bar li:hover {
+  color:red;
 }
 
 /* 2번째 페이지 */
@@ -726,6 +775,13 @@ li {
   cursor: pointer;
 }
 
+.red_btn:hover{
+  border: 1px solid #E60012;
+  background-color: white;
+  color:#E60012;
+}
+
+
 .pay_bar {
   overflow: hidden;
 }
@@ -735,6 +791,15 @@ li {
   /* -webkit-transform:scale(1.2);   크롬 */
  
 }
+
+.news_update_total li {
+  cursor: pointer;
+}
+
+.news_update_total li:hover {
+  color:#E60012;
+}
+
 
 
 /* 세번째 페이지 */
@@ -1114,7 +1179,9 @@ li {
   color:red;
 }
 
-
+.exit_btn {
+  cursor: pointer;
+}
 
 
 @media screen and (max-width: 1460px){
@@ -1392,6 +1459,10 @@ li {
   .navbar_shopping_inf .exit_btn {
     position:absolute;
     bottom:5px;
+  }
+
+  .navbar_search_inf {
+    top:87px;
   }
 
 
@@ -1875,6 +1946,28 @@ li {
 
   .navbar_spanner_inf_first_list {
   }
+
+
+  .navbar_character_total {
+    width:100%;
+    height:100%;
+
+  }
+
+  .navbar_character_list {
+    height:50%;
+
+  }
+
+  .navbar_character_list img{
+    /* height:80%; */
+    width:80%;
+  }
+
+  .navbar_search_inf {
+    top:75px;
+  }
+
 
 }
 
